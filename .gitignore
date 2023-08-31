@@ -1,0 +1,11 @@
+.DS_Store
+.vscode
+.pio
+build
+firmware
+
+debug_custom.json
+debug.cfg
+esp32s3.svd
+
+
