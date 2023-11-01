@@ -59,10 +59,7 @@ Playdate にサイドロードする必要があるコンパニオンアプリ�
 
 ## 既知の問題
 
-- v0.0.1 時点では、動作が不安定です。USB 通信が途切れたり、コンパニオンアプリ、ファームウェアがフリーズ、クラッシュすることがあります。
-
-
-- USB 通信のデータをまれに取りこぼしてしまうことがあるため、プログラムで回避している部分があります。
+- v0.0.2 時点では、動作が不安定です。USB 通信が途切れたり、コンパニオンアプリ、ファームウェアがフリーズ、クラッシュすることがあります。
 
 - コンパニオンアプリの[既知の問題](https://github.com/t0mg/pd-camera-app#known-issues) も、同様に再現することがあります。
 
@@ -72,6 +69,8 @@ Playdate にサイドロードする必要があるコンパニオンアプリ�
 
     PD-Camera project のソースコードを元に、M5Stack で動作するファームウェアを作成しました。
 
+- [USB Host CDC-ACM Class Driver](https://github.com/espressif/idf-extra-components/tree/master/usb/usb_host_cdc_acm)
+
 - [Template Repository for Generating User Custom Firmware for M5Burner v3](https://github.com/3110/m5burner-user-custom-platformio-template) by [SAITO, Tetsuya](https://github.com/3110) 
 
     [generate_user_custom.py](https://github.com/3110/m5burner-user-custom-platformio-template/blob/main/generate_user_custom.py) で公開用のファームウェアを作成しました。
@@ -79,10 +78,6 @@ Playdate にサイドロードする必要があるコンパニオンアプリ�
 - [dithering_halftoning](https://github.com/deeptronix/dithering_halftoning) by [deeptronix](https://github.com/deeptronix)
 
 - [M5Unified](https://github.com/m5stack/M5Unified) by [lovyan03](https://github.com/lovyan03) 
-
-- [ESP32TinyUSB](https://github.com/chegewara/EspTinyUSB) by [chegewara](https://github.com/chegewara)
-
-- [esp32-camera](https://github.com/espressif/esp32-camera) by [Espressif Systems](https://github.com/espressif)
 
 
 ## 参考にさせていただいたサイト

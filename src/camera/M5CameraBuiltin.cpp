@@ -59,14 +59,14 @@ bool M5CameraBuiltin::Initialize()
     esp_err_t err = esp_camera_init(&camera_config);
     if (err != ESP_OK)
     {
-        M5.Display.println("Camera Init Failed");
+        M5.Lcd.println("Camera Init Failed");
         return false;
     }
 
     m_sensor = esp_camera_sensor_get();
     if (m_sensor == NULL)
     {
-        M5.Display.println("Camera Init Failed");
+        M5.Lcd.println("Camera Init Failed");
         return false;
     }
 

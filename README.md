@@ -59,9 +59,7 @@ This firmware is developed with [PlatformIO IDE for VSCode](https://marketplace.
 
 ## Known issues
 
-- As of v0.0.1, operation is unstable; USB communication may be interrupted, companion app and firmware may freeze or crash.
-
-- Since data from USB communication may be missed in rare cases, there is a programmed workaround.
+- As of v0.0.2, operation is unstable; USB communication may be interrupted, companion app and firmware may freeze or crash.
 
 - [Known Issues](https://github.com/t0mg/pd-camera-app#known-issues) with the Companion App may be reproduced as well.
 
@@ -71,6 +69,8 @@ This firmware is developed with [PlatformIO IDE for VSCode](https://marketplace.
 
     Based on the source code from the PD-Camera project, I have created firmware that works with the M5Stack.
 
+- [USB Host CDC-ACM Class Driver](https://github.com/espressif/idf-extra-components/tree/master/usb/usb_host_cdc_acm)
+
 - [Template Repository for Generating User Custom Firmware for M5Burner v3](https://github.com/3110/m5burner-user-custom-platformio-template) by [SAITO, Tetsuya](https://github.com/3110) 
 
     The firmware was created for public use in [generate_user_custom.py](https://github.com/3110/m5burner-user-custom-platformio-template/blob/main/generate_user_custom.py).
@@ -79,9 +79,6 @@ This firmware is developed with [PlatformIO IDE for VSCode](https://marketplace.
 
 - [M5Unified](https://github.com/m5stack/M5Unified) by [lovyan03](https://github.com/lovyan03) 
 
-- [ESP32TinyUSB](https://github.com/chegewara/EspTinyUSB) by [chegewara](https://github.com/chegewara)
-
-- [esp32-camera](https://github.com/espressif/esp32-camera) by [Espressif Systems](https://github.com/espressif)
 
 ## Referenced Sites
 

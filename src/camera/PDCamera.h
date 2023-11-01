@@ -1,5 +1,5 @@
 #pragma once
-#include "Common.h"
+#include "common.h"
 #include "PDCameraTask.h"
 
 
@@ -18,7 +18,7 @@
     カメラ画像送信後、次のカメラ画像を送信するためのステータスを受け取るときに、読み込みバッファが破損することがある問題への対策。
     バッファが破損の問題が解決したらこの定義を削除する。
 */
-#define HAS_READ_BUFFER_CORRUPTION_ISSUE
+//#define HAS_READ_BUFFER_CORRUPTION_ISSUE
 
 
 ///

@@ -28,7 +28,9 @@ public:
 
     ///
     bool Eval();
-};
 
+    ///
+    static void MakeLuaStringInstruction(size_t length, std::vector<uint8_t>& instruction);
+};
 
 
